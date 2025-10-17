@@ -9,7 +9,7 @@ import streamlit as st
 st.set_page_config(page_title="Relatório de Metal GPI", layout="wide")
 st.title("Relatório de Metal GPI")
 
-path = r"D:\00 - VALE\GALPÃO DE INSUMOS\BMS\amb_virtual\Scripts\programas\relatorio_metal.xlsx"
+path = r"relatorio_metal.xlsx"
 df = pd.read_excel(path, header=0)
 
 # =========================
